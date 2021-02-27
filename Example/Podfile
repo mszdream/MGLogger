@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MGLogger_Example' do
+  pod 'MGLogger', :path => '../'
+
+  target 'MGLogger_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
